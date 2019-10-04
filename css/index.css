@@ -192,3 +192,41 @@ nav a{
 #box10{
     background-color: dodgerblue;
 }
+.intro{
+    padding: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+.info{
+    padding: 20px 0 0 0;
+    margin: 20px 0 20 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.strategy,  .place{
+    width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+.work, .collaboration{
+    width: 50%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+}
+.info img{
+    margin: 0 0 10px 0;
+}
+.info p{
+    margin: 0 0 26px 0;
+}
+.learn{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px 8px 8px 8px;
+    border-radius: 2opx;
+    
+
+}
