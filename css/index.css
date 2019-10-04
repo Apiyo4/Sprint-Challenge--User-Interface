@@ -43,7 +43,7 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	border-collapse: separate;
 	border-spacing: 0;
 }
 
@@ -143,4 +143,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px 0 40px 0;
+}
+header nav{
+    margin: 24px 0 0 40px;  
+}
+nav a{
+    margin: 0 69px 0 0;
+    color: black;
+    text-decoration: none;
+    
+}
+.jumboImage{
+    margin: 0 0 20px 0;
+}
+#box1{
+    background: teal;
+    color: yelow;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+.intro{
+    padding: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+}
+.info{
+    padding: 20px 0 0 0;
+    margin: 20px 0 20 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.strategy, .place, .work, .collaboration{
+    width: 48%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.info img{
+    margin: 0 0 10px 0;
+}
+.info p{
+    margin: 0 0 26px 0;
+}
+.learn{
+    width: fit-content;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 6px 18px 6px 18px;
+    border-radius: 10px !important;
+    
+}
+.together{
+    margin: 30px 0 30px 0;
+}
+jumboContact{
+    width: 900px;
 }
