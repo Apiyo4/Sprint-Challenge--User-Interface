@@ -43,7 +43,7 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
+	border-collapse: separate;
 	border-spacing: 0;
 }
 
@@ -203,19 +203,14 @@ nav a{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.strategy,  .place{
-    width: 50%;
+.strategy, .place, .work, .collaboration{
+    width: 48%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
-.work, .collaboration{
-    width: 50%;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    padding-bottom: 30px;
-}
-}
+
 .info img{
     margin: 0 0 10px 0;
 }
@@ -223,10 +218,13 @@ nav a{
     margin: 0 0 26px 0;
 }
 .learn{
-    text-decoration: none;
+   
+    width: fit-content;
     border: 1px solid black;
+    text-decoration: none;
     padding: 8px 8px 8px 8px;
-    border-radius: 2opx;
+    border-radius: 2opx !important;
+    
 }
 .together{
     margin: 30px 0 30px 0;
