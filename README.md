@@ -33,15 +33,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+  Semantic HTML is where tags used to structure the content are applied appropriately to the content e.g head tag, body tag, the div is not a semantic tag.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```
+  Inline respects right and left margin but not top and bottom while block respects all.
+ Inline elements  allows other elements to sit on their right side or left side but block doesn't therefore there's a line break after the block element.
 
 3. What are the 4 areas of the box model?
+  Margin
+  Padding
+  Content
+  Border
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+  Crosss Axis
 5. Explain why git is valuable to a team of developers.
-
+  Collaboration- Git enables developers to work on the same project at the same time. This is achievded by having developers work on different branches and then the code is merged into one in the master branch.
+  Online repository- Git enables developers to store therir code in an organize manner for later user. This is highly beneficial since you can access your code anywhere, with or withour your computer.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
